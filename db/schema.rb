@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.0].define(version: 2025_08_21_022656) do
+ActiveRecord::Schema[8.0].define(version: 2025_08_21_035719) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "pg_catalog.plpgsql"
 
@@ -24,5 +24,6 @@ ActiveRecord::Schema[8.0].define(version: 2025_08_21_022656) do
     t.integer "clog_percentage"
     t.integer "rarity_percentage"
     t.boolean "single_clog"
+    t.string "image_url"
   end
 end
